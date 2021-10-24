@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="../../../style.css">
+<title>1</title>
+</head>
+
+<body>
+<a href=""><h5>次の問題</h5></a>
+<h3>社会のあらゆる階層に神経質にならざるを得ない人種差別が存在する。</h3><br>
+<img id="answer" src="solve.png"><br>
+<input type="button" id="button"value="回答" onclick="check()" />
+
+<script>
+document.getElementById("answer").style.display="none";
+
+function check(){
+const answer=document.getElementById("answer")
+
+if(answer.style.display=="block"){
+answer.style.display="none";
+document.getElementById("button").value="回答";
+}else{
+answer.style.display="block";
+document.getElementById("button").value="閉じる";
+}
+}
+</script>
+
+</body>
+</html>
