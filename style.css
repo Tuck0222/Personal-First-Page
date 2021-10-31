@@ -2,11 +2,18 @@ body{
  background-color: #DDFFDD;
 }
 
-img.icon {
+img.icon{
 width:100px;
 height:auto;
 }
 
 .mgr-10{
     margin-right:10px;
+}
+a{
+    color:#005731;
+}
+a:visited{
+    color:#005731;
+    text-decoration: none;
 }
