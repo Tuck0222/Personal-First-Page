@@ -6,6 +6,10 @@ img.icon{
 width:100px;
 height:auto;
 }
+img {
+    width:300px;
+    height:auto;
+}
 
 .mgr-10{
     margin-right:10px;
