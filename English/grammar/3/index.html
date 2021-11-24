@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="be動詞について主語Iの場合を解説。">
+        <link rel="stylesheet" media="screen and (max-width: 768px)" href="../../../style.css">
+        <link rel="stylesheet" media="screen and (min-width: 768px)" href="../../../style_pc.css">
+        <title></title>
+    </head>
+    <body>
+        <a href="../../grammar.html"><font size="6">戻る</font></a><br><hr>
+        <a href="../list.html"><font size="4">問題リスト</font></a><br><hr>
+        <a href="..//index.html"><font size="4">前の問題へ</font></a>
+        <a href="..//index.html"><font size="4">次の問題へ</font></a><br><hr>
+        <p>次の日本語を英語に直しなさない。</p>
+        <p><font size="6">:私はそのテニスクラブの一員です。</font></p>
+        <input type="button" id="button" value="回答" onclick="check()">
+        <div id="answer">
+            <p><font size="6">I am a member of the tennis club.</font></p>
+            <p>I(私)が主語の場合、be動詞はamになる。</p>
+            <p>主語の人称によってbe動詞が変化するのは大切な基本の一つだ。</p>
+            <p>また、be動詞は基本的に第2文型の動詞なのでI = a memberの関係が成り立つ。</p>
+            <p>(基本リスト「文型」を参照すること)<a href="../sentence-pattern.html">文型</a></p>
+        </div>
+        <script>
+            const answer=document.getElementById("answer");
+            const button=document.getElementById("button");
+            answer.style.display="none";
+
+            function check(){
+            
+            if(answer.style.display=="block"){
+                answer.style.display="none";
+                button.value="回答";
+            }else{
+                answer.style.display="block";
+                button.value="閉じる";
+                }
+            }
+
+            
+        </script>
+    </body>
+</html>
