@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="be動詞のlinking verbとしての働きについて問題形式で紹介しています。">
+        <link rel="stylesheet" media="screen and (max-width: 768px)" href="../../../style.css">
+        <link rel="stylesheet" media="screen and (min-width: 768px)" href="../../../style_pc.css">
+        <title>be動詞の働き</title>
+
+    </head>
+    <body>
+        <a  class="font-large" href="../../tutorial.html">戻る</a><hr>
+        <a  class="font-large" href="../list.html">問題リスト</a><hr>
+        <a href="../2/index.html">次の問題へ</a><hr>
+        <p>次の日本語を英語に直しなさない。</p>
+        <p><font size="6">:私の机の上に、この驚くべき本がある。</font></p>
+        <input type="button" id="button"value="回答" onclick="check()" />
+        <div id="answer">
+            <p class="mgl-10"><font size="6">:This amazing book is on my desk.</font></p>
+            <audio controls><source src=sentence.mp3></audio><br><hr>
+            <div class="mgl-10">
+                <p>be動詞に関する問題。</p>
+                <p>動詞とは「歩く」「話す」などに相当する動きのある働きをする単語のこと。</p><br>
+                <p>その中でも英語のbe動詞は特殊な動詞として知られる。</p>
+                <p>be動詞自体にほとんど意味はなく、linking verb(連結動詞)として、</p>
+                <p>前の語を後ろの語で説明する。</p>
+                <img src="1.png">
+                <p>on my deskは「私の机の上に」。</p>
+                <p>onは前置詞と呼ばれる語。前置詞は後ろに人・物・事を表す言葉（名詞）を置いて、</p>
+                <p>その語に様々な状況を加える。</p>
+                <img src="2.png">
+            </div>
+        </div>
+        <script>
+            document.getElementById("answer").style.display="none";
+            
+            function check(){
+            const answer=document.getElementById("answer")
+            
+            if(answer.style.display=="block"){
+            answer.style.display="none";
+            document.getElementById("button").value="回答";
+            }else{
+            answer.style.display="block";
+            document.getElementById("button").value="閉じる";
+            }
+            }
+            </script>
+    </body>
+</html>
