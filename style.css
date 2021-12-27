@@ -5,6 +5,10 @@ body{
  margin-left:auto;
 }
 
+p{
+    text-indent:lem;
+}
+
 img.icon{
 width:100px;
 height:auto;
