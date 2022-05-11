@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta name="viewport" content="width=device-width">
+<meta charset="utf-8">
+<link rel="stylesheet" href="../style.css" >
+<title>英語　問題集</title>
+</head>
+<body>
+    <a href="../index.html" class="font-large">戻る</a><hr>
+    <p>[和訳]1945, the most famous and histric year in our historical growth, has a very great effect on later modern life.</p>
+    <input type="button" id="button" value="回答" onclick="check()"/>
+    <p id="answer1">1945年は歴史的発展において最も有名で歴史上重要な年であり、のちの現代の生活に極めて大きな影響を及ぼした。</p>
+    <hr>
+    <script>
+        document.getElementById("answer1").style.display="none";
+        function check(){
+           const answer=document.getElementById("answer1");
+           
+           if(answer.style.display=="none"){
+               answer.style.display="block";
+               document.getElementById("button").value="閉じる";
+           }else{
+               answer.style.display="none";
+               document.getElementById("button").value="回答";
+           }
+        }
+    </script>
+</body>
+</html>
