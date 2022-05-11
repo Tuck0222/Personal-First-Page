@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta name="viewport" content="width=device-width">
+<meta charset="utf-8">
+<link rel="stylesheet" href="../style.css" >
+<script type="text/javascript" id="MathJax-script" async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<title>数学　問題集</title>
+</head>
+<body>
+    <a href="../index.html" class="font-large">戻る</a>
+    <hr>
+    <p> \((7x-3)(2x^2+5x-1)\)を展開せよ。</p>
+    <input type="button" id="button" value="回答" onclick="check()"/>
+
+    <div id="answer1">
+    <p>\(14x^3+29x^2-22x+3\) </p>
+    <p>xの整式であることは明らか。降べきの順に3次から定数項まで、文字以外の係数にのみ注目して計算すると効率が良い。</p>
+    </div>
+
+    <script>
+        document.getElementById("answer1").style.display="none";
+        function check(){
+            const answer=document.getElementById("answer1");
+
+            if(answer.style.display=="block"){
+                answer.style.display="none";
+                document.getElementById("button").value="回答";
+            }else{
+                answer.style.display="block";
+                document.getElementById("button").value="閉じる";
+            }
+        }
+    </script>
+<hr>
+
+</body>
+</html>
