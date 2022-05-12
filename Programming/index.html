@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>プログラミング　問題集</title>
+    <link rel="stylesheet" href="../style.css">
+<head>
+<body>
+    <a class="font-large" href="../index.html">戻る</a><hr>
+    <p>次の表を作るために必要なコードを書け</p>
+    <table border="1">
+        <caption>習字教室　料金表</caption>
+        <thead>
+        <tr>
+            <th>項目</th>
+            <th>大人</th>
+            <th>子ども</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>週2日</th>
+                <th>月額10000円</th>
+                <th rowspan="2">月額7000円</th>
+            </tr>
+            <tr>
+                <th>週4日</th>
+                <th>月額14000円</th>
+            </tr>
+        </tbody>
+    </table><br>
+
+
+    <input type="button" value="回答" id="button1" onclick="check()">
+    
+    <div id="answer1">
+    <xmp>
+    <table border="1">
+        <caption>習字教室　料金表</caption>
+        <thead>
+        <tr>
+            <th>項目</th>
+            <th>大人</th>
+            <th>子ども</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>週2日</th>
+                <th>月額10000円</th>
+                <th rowspan="2">月額7000円</th>
+            </tr>
+            <tr>
+                <th>週4日</th>
+                <th>月額14000円</th>
+            </tr>
+        </tbody>
+    </table>
+    </xmp>
+    <hr>
+    <p>rowspanで縦のセルを連結する。</p>
+    </div>
+
+    <script>
+        document.getElementById("answer1").style.display="none";
+
+        function check(){
+            const answer=document.getElementById("answer1");
+            if(answer.style.display=="none")
+            {
+                answer.style.display="block";
+                document.getElementById("button1").value="閉じる";
+            }else{
+            answer.style.display="none";
+            document.getElementById("button1").value="回答"
+        }
+    }
+    </script>
+    <hr>
+</body>
+</html>
