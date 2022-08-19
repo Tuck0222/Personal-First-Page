@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="../../style.css">
+<meta charset="utf-8">
+<title>集合　基本</title>
+</head>
+<body>
+    <img src="set1.png" alt="ベン図">
+    <p>ベン図による2つの集合A,Bの表示。</p>
+    <ol>
+
+    <li><strong>集合と要素</strong><br>:集合とは要素(元)の集まり。</li>
+    <li><strong>空集合</strong><br>:要素を一つも持たない集合。Φで表す。</li>
+    <p>ここからは、異なる2つの集合A,Bを定めるとする。</p>
+    <li><strong>部分集合</strong><br>:ある集合Aの要素のすべてが集合Bの要素であること。<img src="set2.png" alt="部分集合の説明。"><p>(つまり、(集合A)かつ(集合Bでない＝集合Bの補集合)部分全体が空集合になっているということ。)</p></li>
+    <li><strong>共通部分</strong><br>：ある集合Aと集合Bのどちらにも共通する要素全体の集合。A∩Bと表す。<img src="set3.png" alt="共通部分の説明。"></li>
+    <li><strong>和集合</strong><br>：ある集合Aと集合Bの少なくともどちらか一方に属する要素全体の集合。A∪Bと表す。<img src="set4.png" alt="和集合の説明。"></li>
+    <li><strong>補集合と普遍(全体)集合</strong><br>：ある考察対象全体を普遍集合または全体集合と呼び、考える対象の全てを部分集合にするものとする。さらに補集合とはある集合でないもの全体の集合である。つまりある集合とその補集合の和は普遍集合になる。ある集合Aの補集合はĀやA'で表す。<img src="set5.png" alt="補集合の説明"><p>（集合Bと集合Bの補集合は共通部分が空集合。そしてその和集合はたしかに全体に一致する）</p></li>
+    <li><strong>ド・モルガン則</strong><br>(A∩B)'=A'∪B'<br>(A∪B)'=A'∩B'<br>つまり、「AとBの(共通部分)の否定」は「A'とB'の(和集合)」になるという考え方。(共通部分)↔(和集合)でもう一方の式になる。成り立つことをベン図から確認できる。</li>
+    <li><strong>集合の演算法則</strong><br><br>
+        <ul>
+            <li><strong>交換法則</strong><br>A∩B=B∩A<br>A∪B=B∪A</li>
+            <li><strong>結合法則</strong><br>(A∩B)∩C=A∩(B∩C)<br>(A∪B)∪C=A∪(B∪C)</li>
+            <li><strong>分配法則</strong><br>A∩(B∪C)=(A∪B)∩(A∪C)<br>A∪(B∩C)=(A∪B)∩(A∪C)</li>
+        </ul></li>
+    </ol>
+</body>
+</html>
