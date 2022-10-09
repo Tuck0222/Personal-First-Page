@@ -51,8 +51,11 @@ img {
     font-size: xx-large;
 }
 .title{
- text-align: center;
- padding:1%;
+ padding:5%;
+}
+
+.center{
+  text-align: center;
 }
 .font-xlarge{
     font-size: x-large;
@@ -76,9 +79,9 @@ a.normal{
  color:black;
  text-decoration:none;
  background-color:white;
- border: 1px; 
+ border:1px solid; 
  border-color:black;
- padding:1%;
+ padding:0.1%;
 }
 a.button{
     color:#ffffff;
@@ -88,9 +91,5 @@ a.button{
     margin:1px;
     border:1px outset;
     border-color:#e49e61;
-    padding:1%;
-}
-a:visited{
-    color:#ffffff;
-
+    padding:0.1%;
 }
