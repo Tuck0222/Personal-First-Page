@@ -71,7 +71,7 @@ img {
 .mgr-30{
  margin-right:30px;
 }
-a{
+a.button{
     color:#ffffff;
     text-decoration: none;
     border-radius:0.5em;
