@@ -71,6 +71,15 @@ img {
 .mgr-30{
  margin-right:30px;
 }
+
+a.normal{
+ color:black;
+ text-decoration:none;
+ border-radius:0.5em;
+ background-color:white;
+ border: 1px; 
+ border-color:black;
+}
 a.button{
     color:#ffffff;
     text-decoration: none;
