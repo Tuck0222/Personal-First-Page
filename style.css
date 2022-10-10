@@ -100,5 +100,6 @@ a.button{
 }
 
 mjx-container{
- font-size:1.0em;
+ font-size:100% !important;
+ overflow-x:auto;
 }
