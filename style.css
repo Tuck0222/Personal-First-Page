@@ -34,6 +34,17 @@ main{
  padding:5%;
 }
 
+.box2{
+ background-color:#ffec47;
+ padding:5%;
+}
+
+.box3{
+ background-color:#c3d825;
+ padding:0%;
+}
+
+
 img.icon{
 width:100px;
 height:auto;
@@ -46,9 +57,19 @@ img {
 
 
 p{
- font-size:80%;
- line-height:150%;
+ font-size:110%;
+ line-height:250%;
  
+}
+strong{
+ font-size:120%;
+ color:blue;
+}
+small{
+ background-color:#DDFFDD;
+ font-size:100%;
+ display:block;
+ border-radius:0.5em;
 }
 
 
