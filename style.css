@@ -67,9 +67,12 @@ strong{
 }
 small{
  background-color:#DDFFDD;
- font-size:100%;
- display:block;
+ font-size:90%;
+ padding:1%;
  border-radius:0.5em;
+ width:center;
+ display:inline-block;
+ margin:auto;
 }
 
 
