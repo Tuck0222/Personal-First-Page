@@ -5,54 +5,107 @@
 <url>
   <loc>https://tucknote.net/</loc>
   <priority>1.0</priority>
-  <lastmod>2022-10-11T08:12:10+09:00</lastmod>
+  <lastmod>2022-10-13T22:59:45+09:00</lastmod>
   <changefreq>always</changefreq>
 </url>
 <url>
   <loc>https://tucknote.net/index.html</loc>
   <priority>0.8</priority>
-  <lastmod>2022-10-11T08:12:10+09:00</lastmod>
-  <changefreq>always</changefreq>
-</url>
-<url>
-  <loc>https://tucknote.net/Diary/2.html</loc>
-  <priority>0.8</priority>
-  <lastmod>2022-10-11T08:12:10+09:00</lastmod>
+  <lastmod>2022-10-13T22:59:45+09:00</lastmod>
   <changefreq>always</changefreq>
 </url>
 <url>
   <loc>https://tucknote.net/Writing/list.html</loc>
   <priority>0.8</priority>
-  <lastmod>2022-10-11T08:12:10+09:00</lastmod>
+  <lastmod>2022-10-13T22:59:45+09:00</lastmod>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>https://tucknote.net/SchoolMath/list.html</loc>
+  <loc>https://tucknote.net/School_Math/list.html</loc>
   <priority>0.8</priority>
+  <lastmod>2022-10-13T22:59:45+09:00</lastmod>
   <changefreq>always</changefreq>
 </url>
 <url>
   <loc>https://tucknote.net/English/list.html</loc>
   <priority>0.8</priority>
-  <lastmod>2022-10-11T08:12:10+09:00</lastmod>
+  <lastmod>2022-10-13T22:59:45+09:00</lastmod>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>https://tucknote.net/Diary/1.html</loc>
-  <priority>0.7</priority>
-  <lastmod>2022-10-11T08:12:10+09:00</lastmod>
+  <loc>https://tucknote.net/Diary/2.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2022-10-13T22:59:45+09:00</lastmod>
   <changefreq>always</changefreq>
 </url>
 <url>
   <loc>https://tucknote.net/Writing/Input.html</loc>
   <priority>0.7</priority>
-  <lastmod>2022-10-11T08:12:10+09:00</lastmod>
+  <lastmod>2022-10-13T22:59:45+09:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://tucknote.net/School_Math/Input.html</loc>
+  <priority>0.7</priority>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://tucknote.net/School_Math/Problems.html</loc>
+  <priority>0.7</priority>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://tucknote.net/School_Math/Lecture/list.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2022-10-13T22:59:45+09:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://tucknote.net/School_Math/high-fundamental.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2022-10-13T22:59:45+09:00</lastmod>
   <changefreq>always</changefreq>
 </url>
 <url>
   <loc>https://tucknote.net/English/Part_of_speech/nouns.html</loc>
   <priority>0.7</priority>
-  <lastmod>2022-10-11T08:12:10+09:00</lastmod>
+  <lastmod>2022-10-13T22:59:45+09:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://tucknote.net/Diary/1.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2022-10-13T22:59:45+09:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://tucknote.net/School_Math/Lecture/high-school_math.html</loc>
+  <priority>0.6</priority>
+  <lastmod>2022-10-13T22:59:45+09:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://tucknote.net/School_Math/Set/index.html</loc>
+  <priority>0.6</priority>
+  <lastmod>2022-10-13T22:59:45+09:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://tucknote.net/School_Math/Set/problems.html</loc>
+  <priority>0.6</priority>
+  <lastmod>2022-10-13T22:59:45+09:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://tucknote.net/School_Math/R/index.html</loc>
+  <priority>0.6</priority>
+  <lastmod>2022-10-13T22:59:45+09:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>https://tucknote.net/School_Math/Lecture/1_set_and_element.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2022-10-13T22:59:45+09:00</lastmod>
   <changefreq>always</changefreq>
 </url>
 
