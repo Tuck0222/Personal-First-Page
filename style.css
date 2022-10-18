@@ -1,23 +1,24 @@
 body{
- background-color: #98d98e;
+ background-color: #7ebea5;
 }
 
 
 header{
- background-color:#DDFFDD;
+ background-color:#7ebea5;
  height:100px;
  display:block;
 }
 
 navi{
- background-color:#a0d8ef;
+ background-color:white;
  display:block;
  border:solid black;
+ border-radius:100%;
 }
 
 
 main{
- background-color: #fcd575;
+ background-color: #7ebea5;
  display:block;
  padding:5% 5% 5% 5%;
  margin:auto;
@@ -35,13 +36,14 @@ main{
 }
 
 .box2{
- background-color:#ffec47;
+ background-color:#e6eae3;
  padding:5%;
 }
 
 .box3{
- background-color:#c3d825;
+ background-color:grey;
  padding:0%;
+ border-radius:1.0em;
 }
 
 
@@ -57,23 +59,25 @@ img {
 
 
 p{
- font-size:110%;
- line-height:250%;
+ font-size:95%;
+ line-height:200%;
  
 }
 strong{
- font-size:120%;
+ font-size:100%;
  color:blue;
 }
 small{
- background-color:#DDFFDD;
- font-size:90%;
+ background-color:DDFFDD;
+ font-size:85%;
  padding:1%;
  border-radius:0.5em;
  width:center;
  display:inline-block;
  margin:auto;
+ border:2px solid black;
 }
+
 
 
 .font-xxlarge{
@@ -113,14 +117,15 @@ a.normal{
  padding:0.1%;
 }
 a.button{
-    color:#ffffff;
+    color:black;
     text-decoration: none;
     border-radius:0.5em;
-    background-color:#e49e61;
+    background-color:#e6eae3;
     margin:1px;
-    border:1px outset;
-    border-color:#e49e61;
+    border:1px solid;
+    border-color:black;
     padding:0.1%;
+    display:inline-block;
 }
 
 mjx-container{
