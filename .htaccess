@@ -1,0 +1,5 @@
+AddHandler application/x-httpd-php .htm .html
+AddHandler php7.4-script .htm .html
+AddType application/x-httpd-php .htm .html
+RewriteCond %{http_host}www.tuck0222.github.io
+RewriteRule^(.*) https://www.tucknote.net/$1[R=301,L]
