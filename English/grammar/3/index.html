@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="be動詞について主語Iの場合を解説。">
+        <link rel="stylesheet" href="../../../style.css">
+        <title>be動詞と人称</title>
+    </head>
+    <body>
+        <a href="../../grammar.html"><font size="6">戻る</font></a><br><hr>
+        <a href="../list.html">問題リスト</a><a class="mgl-10" href="../fundamental.html">基本リスト</a><br><hr>
+        <a href="../2/index.html">前の問題へ</a>
+        <a class="mgl-10" href="../4/index.html">次の問題へ</a><br><hr>
+        <p>次の日本語を英語に直しなさない。</p>
+        <p><font size="6">:私はそのテニスクラブの一員です。</font></p>
+        <input type="button" id="button" value="回答" onclick="check()">
+        <div id="answer">
+            <p><font size="6">I am a member of the tennis club.</font></p>
+            <audio controls><source src="sentence.mp3"></audio>
+            <p class="font-large">関連する基本：
+                <a href="../sentence-pattern.html">文型</a>
+                <a href="../be.html">be動詞</a>
+            </p>
+            <ul class="font-large2">
+                <li>代名詞の1人称の主格はI：私</li>
+                <li>主語I＝補語a member</li>
+                <li>前置詞句ofで「所有」を表す。</li>
+                <li>A of Bで「Bに属するA」</li>
+            </ul>
+        </div>
+        <script>
+            const answer=document.getElementById("answer");
+            const button=document.getElementById("button");
+            answer.style.display="none";
+
+            function check(){
+            
+            if(answer.style.display=="block"){
+                answer.style.display="none";
+                button.value="回答";
+            }else{
+                answer.style.display="block";
+                button.value="閉じる";
+                }
+            }
+
+            
+        </script>
+    </body>
+</html>

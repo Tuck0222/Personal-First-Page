@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="be動詞以外の一般動詞と前置詞を用いた修飾語句について説明しています。">
+        <link rel="stylesheet" href="../../../style.css">
+        <title>一般動詞と修飾語句</title>
+    </head>
+    <body>
+        <a class="font-large" href="../../grammar.html">戻る</a><hr>
+        <a href="../list.html">問題リスト</a><a class="mgl-10" href="../fundamental.html">基本リスト</a><hr>
+        <a href="../1/index.html">前の問題へ</a>
+        <a class="mgl-10" href="../3/index.html">次の問題へ</a><hr>
+        <p>次の日本語を英語に直しなさない。</p>
+        <p><font size="6">:彼は店まであの通りを歩いた。</font></p>
+        <input type="button" id="button" value="回答" onclick="check()">
+        <div id="answer">
+            <p><font size="6">:He walked to the shop in that street.</font></p>
+            <audio controls><source src="sentence.mp3"></audio>
+            <br><hr>
+            <p class="font-large">関連する基本：<a href="../sentence-pattern.html">文型</a></p>
+            <ul class="font-large2">
+                <li>be動詞以外の動詞を一般動詞と呼ぶ。</li>
+                <li>時制は過去。従って「walk：歩く」は過去形walked</li>
+                <li>toによる前置詞句で「方向」を示す。</li>
+                <li>inによる前置詞句で「場所」を示す。</li>
+            </ul>
+        </div>
+        <script>
+            const answer=document.getElementById("answer");
+            const button=document.getElementById("button");
+            answer.style.display="none";
+
+            function check(){
+            
+            if(answer.style.display=="block"){
+                answer.style.display="none";
+                button.value="回答";
+            }else{
+                answer.style.display="block";
+                button.value="閉じる";
+                }
+            }
+
+            
+        </script>
+    </body>
+</html>

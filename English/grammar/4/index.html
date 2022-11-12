@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="be動詞と1人称の複数形weについて説明しています。">
+        <link rel="stylesheet" href="../../../style.css">
+        <title>be動詞と人称</title>
+    </head>
+    <body>
+        <a href="../../grammar.html"><font size="6">戻る</font></a><br><hr>
+        <a href="../list.html">問題リスト</a><a class="mgl-10" href="../fundamental.html">基本リスト</a><br><hr>
+        <a href="../3/index.html"><font size="3">前の問題へ</font></a>
+        <a class="mgl-10" href="../5/index.html"><font size="3">次の問題へ</font></a><br><hr>
+        <p>次の日本語を英語に直しなさない。</p>
+        <p><font size="6">:私たちは日本のプロのフットボール選手です。</font></p>
+        <input type="button" id="button" value="回答" onclick="check()">
+        <div id="answer">
+            <p><font size="6">We are professional football players in Japan.</font></p>
+            <audio controls><source src="sentence.mp3"></audio>
+            <p class="font-large">関連する基本：
+                <a href="../sentence-pattern.html">文型</a>
+                <a href="../be.html">be動詞</a>
+            </p>
+            <ul class="font-large2">
+                <li>1人称の主格でかつ複数形なのでwe：私たち</li>
+                <li>主語が複数なので補語をplayersと複数形にする。</li>
+                <li>football playersは「football：サッカー」が形容詞の働きをしている。</li>
+                <li>Japanは固有名詞なので冠詞が付かない。</li>
+            </ul>
+            <br><br>
+        </div>
+        <script>
+            const answer=document.getElementById("answer");
+            const button=document.getElementById("button");
+            answer.style.display="none";
+
+            function check(){
+            
+            if(answer.style.display=="block"){
+                answer.style.display="none";
+                button.value="回答";
+            }else{
+                answer.style.display="block";
+                button.value="閉じる";
+                }
+            }
+
+            
+        </script>
+    </body>
+</html>

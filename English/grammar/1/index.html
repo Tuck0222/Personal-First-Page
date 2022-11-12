@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="be動詞のlinking verbとしての働きについて問題形式で紹介しています。">
+        <link rel="stylesheet"  href="../../../style.css">
+        <title>be動詞の働き</title>
+
+    </head>
+    <body>
+        <a  class="font-large" href="../../grammar.html">戻る</a><hr>
+        <a  href="../list.html">問題リスト</a>
+        <a class="mgl-10" href="../fundamental.html">基本リスト</a><hr>
+        <a href="../2/index.html">次の問題へ</a><hr>
+        <p>次の日本語を英語に直しなさない。</p>
+        <p><font size="6">:私の机の上に、この驚くべき本がある。</font></p>
+        <input type="button" id="button"value="回答" onclick="check()" />
+        <div id="answer">
+            <p class="mgl-10"><font size="6">:This amazing book is on my desk.</font></p>
+            <audio controls><source src=sentence.mp3></audio><br><hr>
+            <div class="mgl-10">
+                <p class="font-large">関連する基本
+                    :<a href="../sentence-pattern.html">文型</a>
+                    :<a href="../be.html">be動詞</a>
+                </p>
+                <ul class="font-large2">
+                    <li>be動詞なので第2文型の動詞。</li>
+                    <li>主語this amazing book=補語on my desk(<font color="red">説明・イコール関係</font>)</li>
+                    <li>thisは指示代名詞の形容詞用法。</li>
+                    <li>amaze+人「人を驚かせる」</li>
+                    <li>現在分詞amazingの修飾するbook(主体)が誰かを驚かす(能動)。</li>
+                    <li>onによる前置詞句で「～に密着して」</li>
+                    <li>1人称の所有格はmy。</li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            document.getElementById("answer").style.display="none";
+            
+            function check(){
+            const answer=document.getElementById("answer")
+            
+            if(answer.style.display=="block"){
+            answer.style.display="none";
+            document.getElementById("button").value="回答";
+            }else{
+            answer.style.display="block";
+            document.getElementById("button").value="閉じる";
+            }
+            }
+            </script>
+    </body>
+</html>

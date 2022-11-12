@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta name="viewport" content="width=device-width">
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="../../style.css">
+<meta charset="utf-8">
+<title>指数計算　基本</title>
+</head>
+<body>
+    <p>指数法則は指数を実数まで拡張することを高校数学内で証明することはできない。ただし指数が整数までの範囲ならばこれらの法則が成立することを具体例を通して簡単に確認できる。</p><hr>
+    <p>指数法則 (底\(a\neq 1, a>0 \))</p>
+    <ol>
+    <li>\(a^m \cdot a^n = a^{m+n}\)</li>
+    <li>\(a^m \div a^n = a^{m-n}\)</li>
+    <li>\((a \cdot b)^n = a^n \cdot b^n \)</li>
+    </ol>
+    <hr>
+    [確認]
+    <ul>
+        <li>\(3^2 \cdot 3^3 =3^5 \)は、\(3^2=9,3^3=27,9 \cdot 27=243\)\( 3^5=243\)<br>で両辺が等しいので成り立つ。<br>従って法則1が成り立つ。</li><br>
+        <li>\(3^5 \div 3^2=3^3\)は、\(3^5=243,3^2=9,243 \div 9=27\)\(3^3=27 \)<br>で両辺が等しいので成り立つ。<br>従って法則2が成り立つ。</li><br>
+        <li>\((3 \cdot 4)^2 = 3^2 \cdot 4^2 \)は、\(3 \cdot 4=12,12^2=144\)\(3^2=9,4^2=16,9 \cdot 16=144 \)<br>で両辺が等しいので成り立つ。<br>従って法則3が成り立つ。</li><br>
+    <p>ここまでは指数m,nが自然数の範囲で法則が成り立つことを確認した。</p>
+        <li>法則2より、\(a^m \div a^m = a^{m-m} = a^0 \)<br>このとき、\(a^m\)同士で割っているので、分母分子が等しいから<br>\(a^0 = 1\)</li><br>
+        <li>法則2より、\(1 \div a^m =a^0 \div a^m = a^{-m} \)<br>このとき、1を\(a^m(\neq 0)\)で割っているので\(\displaystyle\frac{1}{a^m}\)<br>よって、\(\displaystyle\frac{1}{a^m} = a^{-m} \)である。</li><br>
+    <p>以上より、指数を0や負の数まで拡張することができた。</p><hr>
+    <p>[補足]<br>指数は計算の際は有理数まで拡張することが多い。今、指数は有理数でも成り立つとしよう。</p><p>\(a\)(\(a \neq 1, a>0\))のn乗根\(\sqrt[n]{a}\)を\(x\)とすると、累乗根の定義より$$ X \longrightarrow A: x^n =a \qquad (1)$$である。aの指数が1なので<br>\(1=n \cdot \displaystyle\frac{1}{n} \)<br>だから、<br>\(x^n = a^1 = a^{n\cdot \displaystyle\frac{1}{n} }\)より、指数部分を\(n\)で割ると<br><br>\(n\)がある偶数のとき、\(x= \pm a^{\displaystyle\frac{1}{n}}\)<br>\(n\)がある奇数のとき、\(x= a^{\displaystyle\frac{1}{n}}\)である。<br>(\(\displaystyle\frac{1}{n}\)はaの指数)<br>\(n\)がある偶数のとき、\(\pm \)(プラスマイナス)と\(x\)が2つ求まる理由は\((1)\)の\(x\)の指数関数が\(X \longrightarrow A\)で単射でなく、偶関数であるから。従って\(x\)について解くと\(a\)に対して2つの解が与えられる。</p><p>また、\(n\)がある奇数のとき、\((1)\)の\(x\)の指数関数は\(X \longrightarrow A\)で全単射であるため\(a\)に対して、\(x\)は1つに定まる。[数学][関数・写像]</p><p>従って指数を有理数まで拡張すると、累乗根を表すことがわかった。</p>
+    </ul>
+
+
+</body>
+</html>
